@@ -1,4 +1,4 @@
-# Promise深入 + 自定义Promise
+# Promise
 ## 1. 准备
 ### 1.1. 函数对象与实例对象
     1. 函数对象: 将函数作为对象使用时, 简称为函数对象
@@ -74,7 +74,7 @@
     1. async 函数
         函数的返回值为promise对象
         promise对象的结果由async函数执行的返回值决定
-   
+       
     2. await 表达式
         await右侧的表达式一般为promise对象, 但也可以是其它的值
         如果表达式是promise对象, await返回的是promise成功的值
